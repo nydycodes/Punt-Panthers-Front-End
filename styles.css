@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.editor {
+    display: flex;
+    flex-direction: column;
+}
+.toolbar {
+    margin-bottom: 10px;
+}
+.toolbar select, .toolbar button {
+    margin-right: 10px;
+}
+textarea {
+    width: 100%;
+    height: 300px;
+}
